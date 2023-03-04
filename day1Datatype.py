@@ -14,12 +14,13 @@ FALSE =  False
 sentence = "HELLO WORLD!"
 array = ["H","E","L","L","O"," ","W","O","R","L","D","!"]
     #   { 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10, 11}
-mutableArraySET1 = {1,2,3,5,6,7,8}  #changable SET
+mutableArraySET1 = {1,2,3,5,6,7,8}  #unchangable SET, Un-accessable unless converted to List or tuple
 mutableArrayList2 = [1,2,3,5,6,7,8] #changable LIST
 immutableArrayTuple = (1,2,3,4,5) # unchangable tuple
 Dict = {"username" : "Mariella",2: "Female"}  # changable
 Dict["username"] = "Biscarra"
-
+mutableArrayList2[0] = 3
+print(mutableArrayList2[0])
 len(sentence) # LEGNTH <-- 
 type(sentence) # Returns data type
 bool(numberFloat)
@@ -28,3 +29,5 @@ bool(numberFloat)
 2 + int("2")
 # range(START,END)
 random.randrange(0, 10)
+
+

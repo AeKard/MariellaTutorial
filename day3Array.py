@@ -17,8 +17,7 @@ ListOfNames.append("Lord Drake")
 print(ListOfNames)
 ListOfNames.sort()
 print(ListOfNames)
-
-print("=" * 40)
+print("BOJBOPSHJDFP")
 TupleOfnames = {"VEnedict", "LOrddrake", "mariella", "marvin", "marvin"}
 # TupleOfnames[1] = "Colleen"
 print(type(TupleOfnames))
